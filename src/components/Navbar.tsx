@@ -187,6 +187,10 @@ export const Navbar: React.FC<NavbarProps> = ({
                                     zone: data.address?.city || data.address?.state || 'Detected Area',
                                     address: detectedAddress,
                                     etaMinutes: 10,
+                                    code: 'DETECTED',
+                                    isActive: true,
+                                    coordinates: { lat: latitude, lng: longitude },
+                                    operationalHours: '24/7',
                                   };
                                   
                                   onSelectStore(customStore);
