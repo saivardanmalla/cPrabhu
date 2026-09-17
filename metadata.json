@@ -1,0 +1,6 @@
+{
+  "name": "Clickit",
+  "description": "AI-powered quick commerce platform with 10-minute delivery, multi-agent cognitive architecture, intelligent inventory, and real-time tracking.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
